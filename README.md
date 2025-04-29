@@ -19,19 +19,24 @@ Proyek ini bertujuan untuk mengidentifikasi beberapa faktor yang dapat menyebabk
 
 ### Persiapan
 
-Sumber data: https://github.com/dicodingacademy/dicoding_dataset/blob/main/employee/employee_data.csv
+Sumber data: [employee data](https://github.com/dicodingacademy/dicoding_dataset/blob/main/employee/employee_data.csv)
 
 Setup environment:
 
 Clone repo
 ```
-git clone https://github.com/NajmahFemalea/jayajayamaju
+git clone https://github.com/NajmahFemalea/jayajayamaju.git
+cd jayajayamaju
 ```
 Setup virtual Environtment (opsional)
 ```
 python -m venv ./venv
+venv\Scripts\activate 
 ```
-
+Install Dependencies
+```
+pip install -r requirements.txt
+```
 ## Business Dashboard
 
 Dashboard ini mencakup, tiga metrik kunci di bagian atas: jumlah karyawan yang bertahan (“Attrition No”), jumlah karyawan yang telah keluar (“Attrition Yes”), rata-rata gaji bulanan karyawan, distribusi total karyawan, jumlah yang keluar, dan jumlah yang bertahan untuk setiap tingkat kepuasan kerja—dari level “Low” hingga “Very High.”. Visualisasi menggunakan bar chart untuk menunjukkan perbandingan. Keseluruhan tampilan ini dirancang untuk membantu manajer dan pemangku kepentingan HR memantau tren attrition secara real-time dan mengambil tindakan pencegahan yang tepat berdasarkan data.
